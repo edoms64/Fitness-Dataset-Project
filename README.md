@@ -42,3 +42,8 @@ Results:
 
 <img width="595" height="291" alt="Screenshot 2026-01-10 at 3 39 14 AM" src="https://github.com/user-attachments/assets/10912653-eb6e-4e29-aec9-ed403bae6dc0" />
 
+
+Machine Learning Model and Data Visualizations for Fitness App Poroject
+
+[Linear_Regression_and_Random_Forest_Model (1).ipynb](https://github.com/user-attachments/files/24988569/Linear_Regression_and_Random_Forest_Model.1.ipynb)
+
