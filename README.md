@@ -38,11 +38,17 @@ Displayed below are results (a snapshot of the results) of weekly calorie totals
 SQL Query:
 
 SELECT
+
 workouts.user_id AS "User_ID",
+
 workouts.workout_datetime AS "Workout Date and Time",
+
 workouts.duration_minutes AS "Duration of Minutes",
+
 workouts.calories_burned AS "Calories Burned"
+
 FROM workouts
+
 ORDER BY "User_ID" DESC, "Workout Date and Time";
 
 Results:
