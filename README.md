@@ -10,12 +10,19 @@ The class difficulty levels that are the most highly utilized are, in order, “
 SQL Query:
 
 SELECT
+
 classes.class_id AS "Class ID",
+
 classes.difficulty_level AS "Difficulty Level",
+
 SUM(user_id) AS "Total Number of Users"
+
 FROM classes
+
 LEFT JOIN workouts ON classes.class_id = workouts.class_id
+
 GROUP BY classes.difficulty_level
+
 ORDER BY "Total Number of Users" DESC;
 
 Results:
